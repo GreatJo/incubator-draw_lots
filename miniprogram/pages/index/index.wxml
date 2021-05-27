@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="draw">
+    <button bindtap="onQuery">点击开卦</button>
+    <text class = "center" wx:if="{{queryResult}}">{{queryResult}}</text>
+  </view>
+
+</view>
